@@ -1,0 +1,43 @@
+main {
+    position: relative;
+    min-height: 100vh;
+}
+
+.top-blob {
+    position: absolute;
+    right: 0px;
+}
+
+.bot-blob {
+    position: absolute;
+    bottom: 0px;
+}
+
+.content {
+    position: relative;
+    padding: 40px;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #293264;
+    word-wrap: break-word;
+}
+
+button {
+    border: none;
+    background: #4D5B9E;
+    color: #F5F7FB;
+    cursor: pointer;
+    box-shadow: 0 5px #999;
+}
+
+button:hover {
+    background: #334189;
+}
+
+button:active {
+    background: #334189;
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
+}

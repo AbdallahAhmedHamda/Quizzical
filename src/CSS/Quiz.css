@@ -1,0 +1,31 @@
+.result {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.check-btn {
+    height: 35px;
+    width: 120px;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.correct-answers {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.new-game-btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 10px;
+}
